@@ -71,5 +71,17 @@ The API endpoint have the following details:
 The API endpoint returns JSON data with user information, timestamp (_using current UTC time ISO 8601 format_) and a random cat fact that changes at every request.
 
 #### OUTPUT
+```bash
+  {
+  "status": "success",
+  "user": {
+    "email": "ahmed.wahab.imokha@gmail.com",
+    "name": "Ahmed Wahab",
+    "stack": "Node.js, Express.js, MongoDB"
+  },
+  "timestamp": "2025-10-17T21:19:53.866Z",
+  "fact": "Since cats are so good at hiding illness, even a single instance of a symptom should be taken very seriously."
+}
+```
 ![Response API output](/assets/image.png)
 
