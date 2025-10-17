@@ -1,0 +1,10 @@
+**/.env
+**/node_modules
+**/.DS_Store   
+**/.history
+**/.vscode
+**/.hg
+**/.idea
+**/dist 
+**/build
+**/coverage
