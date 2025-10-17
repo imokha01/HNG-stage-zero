@@ -62,4 +62,14 @@ After installing dependencies and setting up environment variables, you can star
     ```bash
       npm run start
     ```
+### API ENDPOINT
+The API endpoint have the following details:
+  > Method: GET <br/>
+  > URL: /me <br/>
+  > Content-type: application/json
+
+The API endpoint returns JSON data with user information, timestamp (_using current UTC time ISO 8601 format_) and a random cat fact that changes at every request.
+
+#### OUTPUT
+![Response API output](/assets/image.png)
 
