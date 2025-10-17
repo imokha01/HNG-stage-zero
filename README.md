@@ -31,5 +31,35 @@ Once the repository is cloned, navigate into the project directory:
 ```bash
   cd hng-stage-zero
 ```
+### SETUP INSTRUCTION:
+Setup the project by following the following steps:
+1. **Setup the package.json file:**
+   ``` bash
+     npm init
+   ```
 
+2. **Install dependencies**: <br/><br/>
+   Use the node package manager (*npm*) to install the depenciencies needed for the projects. <br/><br/>
+    **NOTE:** <br/>
+     The dependencies used in this project are:
+     * express
+     * cors
+     * express-rate-limit
+     * dotenv <br/> <br/>
+    ```bash
+      npm install express cors express-rate-limit dotenv
+    ```
+3.  **Set up environment variables**: <br/>
+Create a _.env_ file in the root of the project directory to store sensitive information such as your database URI and secret keys.
+    ```bash
+        NAME: "Your full name"
+        EMAIL: "Your email address"
+        STACK: "Your backend stack"
+    ```
+
+4. Start the Server
+After installing dependencies and setting up environment variables, you can start the application by running:
+    ```bash
+      npm run start
+    ```
 
