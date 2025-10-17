@@ -1,4 +1,4 @@
-# HNG-stage0
+# HNG-stage-zero
 ### Table of Content
 1. [Task](#task)
 2. [Objective](#objective)
@@ -17,3 +17,19 @@ This task validates your ability to:
 4. using the cors middleware.
 5. Add basic logging for debugging
 6. integrate rate limiting to the application
+
+### INSTALLATION:
+Follow these steps to set up and run the HNG Stage 0 Backend Project locally on your machine:
+
+1. **Clone the repository**: <br/>
+Start by cloning the repository to your local machine. You can do this by running the following command in your terminal:
+```bash
+  git clone https://github.com/your-username/hng-stage-zero.git
+```
+2. **Navigate to the project directory**
+Once the repository is cloned, navigate into the project directory:
+```bash
+  cd hng-stage-zero
+```
+
+
