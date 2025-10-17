@@ -83,5 +83,3 @@ The API endpoint returns JSON data with user information, timestamp (_using curr
   "fact": "Since cats are so good at hiding illness, even a single instance of a symptom should be taken very seriously."
 }
 ```
-![Response API output](/assets/image.png)
-
